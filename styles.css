@@ -1,0 +1,149 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: 'Raleway', sans-serif;
+}
+
+nav {
+  height: 50px;
+  background-color: #92E0E5;
+}
+
+.nav-logo {
+  width: 40px;
+  height: 40px;
+  margin-left: 15px;
+  background-image: url(assets/dog-icon.svg);
+  background-repeat: no-repeat;
+  background-size: 75%;
+  background-position: 10px 10px;
+  float: left;
+}
+
+ul {
+  float: right;
+  margin-right: 15px;
+}
+
+li {
+  display: inline;
+  padding: 0 15px;
+  font-size: 20px;
+  /*vertical-align: middle;*/
+}
+
+.nav-link {
+  color: #FFFFFF;
+  text-decoration: none;
+}
+
+.main-header {
+  text-align: center;
+}
+
+.background-img {
+  width: 100%;
+  height: 550px;
+  background-image: url(assets/park.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+h1 {
+  margin: 0;
+  padding: 50px 50px 30px;
+  font-size: 35px;
+  font-weight: 500;
+  text-align: center;
+}
+
+.primary-img {
+  background-image: url(assets/dog1-sq.jpg);
+  background-repeat: no-repeat;
+  width: 325px;
+  height: 325px;
+  margin: auto;
+  border: 5px solid #3E8DA7;
+  border-radius: 100%;
+  background-size: 325px;
+}
+
+button {
+  margin-top: 20px;
+  padding: 5px;
+  border: 5px solid #3E8DA7;
+  background-color: #FFFFFF;
+  color: #3E8DA7;
+  font-family: inherit;
+  font-size: 20px;
+}
+
+article {
+  width: 33%;
+  display: inline-block;
+  text-align: center;
+  vertical-align: top;
+}
+
+h2 {
+  margin: 50px 0 30px;
+  font-size: 20px;
+  text-align: center;
+}
+
+.first-img,
+.second-img,
+.third-img {
+  width: 250px;
+  height: 250px;
+  margin: auto;
+  border: 2px solid #3E8DA7;
+  border-radius: 100%;
+  background-repeat: no-repeat;
+  background-size: 250px;
+}
+
+.first-img {
+  background-image: url(assets/dog2-sq.jpg);
+}
+
+.second-img {
+  background-image: url(assets/dog3-sq.jpg);
+}
+
+.third-img {
+  background-image: url(assets/dog4-sq.jpg);
+}
+
+p {
+  padding: 10px;
+  font-size: 20px;
+}
+
+#facts-btn {
+  margin-top: 0;
+}
+
+footer {
+  height: 200px;
+  background-color: #3F8DA7;
+  text-align: center;
+}
+
+.footer-text,
+.footer-link {
+  padding: 20px;
+  color: #FFFFFF;
+  font-size: 20px;
+}
+
+.social-media {
+  margin-bottom: 25px;
+}
+
+.footer-logo {
+  margin: 0 30px;
+}
